@@ -35,6 +35,7 @@ gem 'therubyracer'
 
 group :test, :development do
   gem 'rspec-rails', '~> 2.5'
+  gem 'email_spec'
 end
 
 group :test do
