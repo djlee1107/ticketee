@@ -48,6 +48,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.1.2)
+    concurrent-ruby (1.1.5)
     cucumber (1.1.0)
       builder (>= 2.1.2)
       diff-lcs (>= 1.1.2)
@@ -77,7 +78,8 @@ GEM
     gherkin (2.5.3)
       json (>= 1.4.6)
     hike (1.2.3)
-    i18n (0.6.0)
+    i18n (0.9.5)
+      concurrent-ruby (~> 1.0)
     jquery-rails (1.0.16)
       railties (~> 3.0)
       thor (~> 0.14)
